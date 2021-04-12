@@ -4,10 +4,6 @@
 #include <math.h>
 #include <time.h>
 
-struct rgAgora{
-    int dia,mes, ano;
-};
-
 int main(void){
     //CAPTURANDO A DATA DO SITEMA
     time_t currentTime;
@@ -66,6 +62,5 @@ int main(void){
     }else{
         printf("Voce NAO e maior de idade!");
     }
-
     return 0;
 };
